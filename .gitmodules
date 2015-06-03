@@ -1,0 +1,12 @@
+[submodule "dwm"]
+	path = dwm
+	url = git@bitbucket.org:adrian-castravete/dwm
+[submodule "dwmstatus"]
+	path = dwmstatus
+	url = git@bitbucket.org:adrian-castravete/dwmstatus
+[submodule "dmenu"]
+	path = dmenu
+	url = git@bitbucket.org:adrian-castravete/dmenu
+[submodule "st"]
+	path = st
+	url = git@bitbucket.org:adrian-castravete/st
