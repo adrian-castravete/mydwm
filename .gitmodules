@@ -10,3 +10,6 @@
 [submodule "st"]
 	path = st
 	url = git@bitbucket.org:adrian-castravete/st
+[submodule "surf"]
+	path = surf
+	url = git@bitbucket.org:adrian-castravete/surf.git
