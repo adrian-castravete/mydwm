@@ -1,15 +1,15 @@
 [submodule "dwm"]
 	path = dwm
-	url = git@bitbucket.org:adrian-castravete/dwm
+	url = git@github.com:adrian-castravete/dwm
 [submodule "dwmstatus"]
 	path = dwmstatus
-	url = git@bitbucket.org:adrian-castravete/dwmstatus
+	url = git@github.com:adrian-castravete/dwmstatus
 [submodule "dmenu"]
 	path = dmenu
-	url = git@bitbucket.org:adrian-castravete/dmenu
+	url = git@github.com:adrian-castravete/dmenu
 [submodule "st"]
 	path = st
-	url = git@bitbucket.org:adrian-castravete/st
+	url = git@github.com:adrian-castravete/st
 [submodule "surf"]
 	path = surf
-	url = git@bitbucket.org:adrian-castravete/surf.git
+	url = git@github.com:adrian-castravete/surf.git
