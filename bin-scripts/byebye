@@ -1,0 +1,4 @@
+#!/bin/sh
+
+(sleep 1s; systemctl -i suspend)&
+bin/lock

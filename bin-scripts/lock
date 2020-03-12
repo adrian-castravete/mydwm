@@ -1,0 +1,29 @@
+#!/bin/sh
+
+compton_pid=`pidof compton`
+if [ $compton_pid ]
+then
+  kill $compton_pid
+fi
+
+dunst_pid=`pidof dunst`
+if [ $dunst_pid ]
+then
+  notify-send "DUNST_COMMAND_PAUSE"
+fi
+
+if pidof xautolock
+then
+  xautolock -exit
+fi
+slock
+xautolock -time 5 -locker lock -notify 5 &
+
+if [ $dunst_pid ]
+then
+  notify-send "DUNST_COMMAND_RESUME"
+fi
+if [ $compton_pid ]
+then
+  compton --config $HOME/.config/compton/default.conf &
+fi

@@ -9,6 +9,9 @@ setxkbmap ro
 sh $HOME/.screenlayout/default.sh &
 sh $HOME/.fehbg &
 
+xautolock -exit
+xautolock -time 5 -locker lock -notify 5 &
+
 dwmstatus.lua &
 xfce4-power-manager &
 pnmixer &
