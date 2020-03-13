@@ -1,7 +1,0 @@
-#!/bin/bash
-
-export PATH=$HOME/bin:$HOME/.local/bin:$PATH
-export BROWSER=chromium
-export TERMINAL=lxterminal
-export EDITOR=vim
-#sh .zshenv
